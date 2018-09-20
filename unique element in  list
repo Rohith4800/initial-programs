@@ -1,0 +1,20 @@
+
+a=[50,10,50,20,50,50]
+n=[]
+c=0
+f=0
+for i in range(0,len(a)):
+    for j in range(i+1,len(a)):
+        if(a[i]==a[j]):
+            n.append(j)
+            f=1
+    if(f==1):
+        break
+print(n)
+for i in n:
+    a[i]=0
+print(a)
+for i in range(0,len(a)):
+    if(a[i]!=0):
+        c+=1
+print(c)
