@@ -1,18 +1,6 @@
-# initial-programs
-#include<stdio.h>  
-#include<conio.h>  
-int main()    
-{    
- int n1=-1,n2=1,n3,i,n;    
- printf("Enter the number of elements:");    
- scanf("%d",&n);    
-
- for(i=0;i<n;i++)
-   {    
-     n3=n1+n2;    
-     printf("%d",n3);    
-     n1=n2;    
-     n2=n3;    
-    }  
-  return 0;  
- }    
+This repository contains the initial and simple programs I have done in C program.
+These programs include
+1.factorial
+2.fibonacci series
+3.
+4.
